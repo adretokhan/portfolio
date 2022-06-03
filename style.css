@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #fff;
+}
+
+.side-navbar {
+  width: 180px;
+  height: 100%;
+  position: fixed;
+  margin-left: -300px;
+  background-color: #050224;
+  transition: 0.5s;
+}
+
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover {
+  background-color: #ffffff26;
+}
+.nav-link:hover{
+  cursor: grab;
+}
+.my-container {
+  transition: 0.4s;
+}
+
+.active-nav {
+  margin-left: 0;
+}
+
+/* for main section */
+.active-cont {
+  margin-left: 180px;
+}
+
+#menu-btn {
+  background-color: #050224;
+  color: #fff;
+  margin-left: -62px;
+}
+
+.my-container input {
+  border-radius: 2rem;
+  padding: 2px 20px;
+}
+.nav-link{
+  padding: 2.5rem 1rem;
+}
+.myhome{
+  width: 72vw;
+  height: 47vh;
+  background-color:aliceblue;
+  margin: 52px auto;
+  display: flex;
+  box-shadow: 8px 8px 12px lightblue;
+  border-radius: 25px;
+  justify-content:space-between;
+}
+.title1{
+  margin-left: 92px;
+  margin-top: 83px;
+}
+.title1 h1{
+  color: rgb(39, 74, 190);
+  font-size: 3rem;
+}
+.aboutme{
+  margin: 330px auto;
+  width: 72vw;
+}
+#Navbar{
+  position: fixed;
+}
+
+.amemain{
+  display: flex;
+  justify-content:space-between;
+  margin-top: 57px;
+}
+.amemain img{
+  width: 20%;
+  height: auto;
+  border-radius: 50%;
+}
+.v1{
+  border-left: 6px solid black;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  margin-left: 89px;
+}
+.amemain a{
+  text-decoration: none;
+}
